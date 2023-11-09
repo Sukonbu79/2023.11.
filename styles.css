@@ -1,0 +1,177 @@
+/* 自由に編集してみてください */
+
+/* common*/
+
+section {
+  margin: 0;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: 0 16px 16px 16px;
+  width: 480px;
+  margin-bottom: 16px;
+  position: relative;
+} 
+
+.bi-bookmark-star-fill {
+  position: absolute;
+  top: -16px;
+  right: 8px;
+  font-size: 32px;
+}
+
+h1 {
+  border-bottom: 2px solid #999;
+  padding-bottom: 8px;
+  font-size: 21px;
+}
+
+.imgs {
+  position: relative;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+/* mado*/
+
+.nokori {
+    position: absolute;
+  top: -8px;
+  right: 72px;
+  background: yellow;
+  width: 120x;
+  padding: 0 16px;
+  text-align: center;
+  font-weight: 900;
+  border-radius: 6px;
+  font-size: 18px;
+} 
+
+.pink {
+  position: absolute;
+  bottom: 48px;
+  left: 190px;
+  background: #fff;
+  opacity: .6;
+  padding: 0 6px;
+  border-radius: 6px;
+}
+
+.syousai {
+  display: flex;
+}
+
+.yatin {
+  flex: 1;
+}
+
+.eki {
+  flex: 1;
+}
+
+.mado a {
+  margin-left: 16px;
+}
+
+/* neko*/
+
+.kyu {
+  position: absolute;
+  top: -8px;
+  right: 72px;
+  background: red;
+  color: #fff;
+  width: 72px;
+  padding: 0 16px;
+  text-align: center;
+  font-weight: 900;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.kuro {
+  position: absolute;
+  bottom: 32px;
+  left: 64px;
+  color: #fff;
+  background: skyblue;
+  opacity: .7;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.kyuuyo {
+  flex: 1;
+}
+
+.fukuri {
+  flex: 1;
+}
+
+.neko .btn {
+  text-align: center;
+}
+
+.bi-arrow-through-heart {
+  padding-right: 4px;
+  color: red;
+}
+
+.neko .btn a {
+  text-decoration: none;
+  background: skyblue;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 6px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* bed */
+
+.nuigurumi {
+  position: absolute;
+  bottom: 8px;
+  right: 90px;
+  background: #fff;
+  opacity: .6;
+  border-radius: 6px;
+  padding: 0 6px;
+}
+
+.syukuhakuhi {
+  flex: 1;
+}
+
+.sa-bisu {
+  flex: 1;
+}
+  
+.bed .btn {
+  font-size: 18px;
+  background: pink;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+}
+
+.bi-emoji-kiss-fill {
+  color: red;
+}
+
+.bi-hearts {
+  color: red;
+}
+
+.bed a {
+  text-decoration: none;
+  color: red;
+}
